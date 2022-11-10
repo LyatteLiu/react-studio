@@ -14,10 +14,6 @@ function App() {
   /* add your cart state code here */
   const [cart, setCart] = useState([]);
 
-  // function addToCart(itemName){
-  //   setCart(cart => [...cart, itemName]);
-  // }
-
   return (
     <div className="App">
       <h1>My Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
